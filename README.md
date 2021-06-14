@@ -3,4 +3,3 @@
 things to learn:
 -general workflow (layout/design/implement/fine tune)
 -flexbox
--dropdown nav
