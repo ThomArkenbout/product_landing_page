@@ -40,5 +40,36 @@ body {
 .card {
     height: 20rem;
     width: 30rem;
-    outline: 1px solid black;
+}
+
+.card-image {
+    height: 80%;
+    width: auto;
+}
+
+.card-text {
+    margin-top: 1rem;
+}
+
+#form {
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    width: 18rem;
+    margin-bottom: 1.5rem;
+}
+
+#submit {
+    width: 10rem;
+}
+
+footer {
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(28, 106, 0, 100);
 }
