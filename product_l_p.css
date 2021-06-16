@@ -6,13 +6,43 @@ body {
 #header {
     height: 4rem;
     width: 100%;
-    background-color: rgba(28, 106, 0, 100);
+    background-color: rgba(28, 106, 0, 1);
+    position: fixed;
+    top: 0;
+}
+
+#nav-bar {
+    float: left;
+    height: 100%;
+    width: 36rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 6px;   
+}
+
+li a:hover {
+    background-color: white;
+    color: rgba(28, 106, 0, 1);
+    border-radius: 5px;
+}
+
+#header-img {
+    float: right;
 }
 
 #main-content {
     height: 30rem;
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 
 #text-area {
@@ -57,19 +87,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10rem;
 }
 
 #email {
+    height: 1.5rem;
     width: 18rem;
     margin-bottom: 1.5rem;
 }
 
 #submit {
-    width: 10rem;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: rgba(106, 0, 28, 1);
+    color: white;
+    font-weight: bold;
 }
 
 footer {
     height: 4rem;
     width: 100%;
-    background-color: rgba(28, 106, 0, 100);
+    background-color: rgba(28, 106, 0, 1);
 }
