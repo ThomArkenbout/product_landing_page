@@ -11,6 +11,13 @@ body {
     top: 0;
 }
 
+#header-img {
+    height: 4rem;
+    width: auto;
+    background: rgba(28, 106, 0, 1);
+    margin-right: 10rem;
+}
+
 #nav-bar {
     float: left;
     height: 100%;
@@ -57,6 +64,12 @@ li a:hover {
     width: 55%;
     margin-right: 2rem;
     float: right;
+}
+
+@media screen and (max-width: 480px) {
+    #video {
+        float: unset;
+    }
 }
 
 #main-cards {
